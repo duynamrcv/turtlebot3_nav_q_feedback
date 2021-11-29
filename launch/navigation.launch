@@ -1,0 +1,7 @@
+<launch>
+    <!-- TurtleBot3 simulation Gazebo -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
+
+    <!-- Navigation -->
+    <node pkg="turtlebot3_nav_q_feedback" type="control_node.py" name="control_node" output="screen"/>
+</launch>
