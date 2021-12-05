@@ -18,6 +18,7 @@ from Control import *
 # Action parameter
 MIN_TIME_BETWEEN_ACTIONS = 0.0
 
+# GOAL
 X_GOAL = 2.0
 Y_GOAL = 1.0
 THETA_GOAL = 60

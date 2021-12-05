@@ -4,4 +4,7 @@
 
     <!-- Navigation -->
     <node pkg="turtlebot3_nav_q_feedback" type="control_node.py" name="control_node" output="screen"/>
+
+    <!-- Lidar -->
+    <node pkg="turtlebot3_nav_q_feedback" type="scan_node.py" name="scan_node" output="screen"/>
 </launch>
