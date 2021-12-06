@@ -21,9 +21,14 @@ $ git clone https://github.com/duynamrcv/turtlebot3_nav_q_feedback.git
 $ cd ..
 $ catkin_make
 ```
+Because the package is designed for the Turtlebot3 Burger:
+```
+$ echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+$ . ~/.basrhc
+```
 
 ## Running
-Make sure the path to files are correct.
+Make sure all the paths in the file are correct.
 ```
 $ cd turtlebot3_ws
 $ . devel/setup.bash
